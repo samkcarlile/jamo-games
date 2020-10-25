@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "types": ["node"],
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "jsx": "react", // Enable JSX compilation for React (the same thing babel does)
+    "outDir": "dist" // Javascript output directory
+  },
+  "include": ["src/**/*"], // Directories to look for Typescript code in
+  "exclude": ["node_modules"] // Directories to ignore
+}
